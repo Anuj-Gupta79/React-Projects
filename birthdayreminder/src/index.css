@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(11, 254, 120);
+  background-color: rgb(244, 191, 243);
   line-height: 1.5;
   font-size: 0.875rem;
   margin: 0;
@@ -15,7 +15,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+    monospace;
 }
 
 main {
@@ -28,9 +28,11 @@ main {
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.25rem;
 }
@@ -52,16 +54,17 @@ p {
   width: 90vw;
   margin: 5rem 0;
   max-width: 750px;
-  background: white;
+  background: rgb(208, 238, 244);
   border-radius: 10px;
   padding: 1.5rem 2rem;
-  box-shadow: black;
+  box-shadow: 3px 3px 5px 5px #ee37e2;
 }
 
 .container h3 {
-  font-weight: normal;
-  text-transform: none;
+  font-weight: bolder;
+  text-transform: capitalize;
   margin-bottom: 2rem;
+  font-size: xx-large;
 }
 
 .section {
@@ -70,19 +73,28 @@ p {
   max-width: 750px;
 }
 
+.people {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
 .people img {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 2px 5px rgb(88, 192, 248);
 }
+
 .people h4 {
-  margin-bottom: 0.35rem;
+  margin-bottom: -0.65rem;
 }
 
 .people p {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .container button {
@@ -90,13 +102,13 @@ p {
   display: block;
   width: 100%;
   border-color: transparent;
-  background: rgb(11, 254, 120);
+  background: rgb(220, 101, 216);
   margin: 2rem auto 0 auto;
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem 0;
   letter-spacing: 0.1rem;
   border-radius: 0.25rem;
-  outline: 1px solid rgba(6, 109, 39, 0.8);
+  outline: 1px solid rgba(3, 3, 3, 0.8);
   cursor: pointer;
 }
