@@ -5,6 +5,10 @@ import Welcome from './Welcome';
 import Jsx from './JSX';
 import StateClass from './StateClass'; 
 import CountuseState from './CountuseState';
+import FunctionalClick from './FunctionalClick';
+import ClassesClass from './ClassClick';
+import ClassClick from './ClassClick';
+import BindingThis from './BindingThis';
 
 function App() {
   return (
@@ -14,8 +18,11 @@ function App() {
      <Greet name="Same"/>
      <Welcome />
      <Jsx></Jsx>
-     <StateClass></StateClass> */}
+     <StateClass></StateClass>
      <CountuseState></CountuseState>
+     <FunctionalClick></FunctionalClick>
+     <ClassClick></ClassClick> */}
+     <BindingThis></BindingThis>
     </div>
   );
 }
