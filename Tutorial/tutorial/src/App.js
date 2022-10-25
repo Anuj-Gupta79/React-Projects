@@ -9,6 +9,10 @@ import FunctionalClick from './FunctionalClick';
 import ClassesClass from './ClassClick';
 import ClassClick from './ClassClick';
 import BindingThis from './BindingThis';
+import ParentComponent from './ParentComponent';
+import ConditionalOperator from './ConditionalOperator';
+import PersonList from './PersonList';
+
 
 function App() {
   return (
@@ -21,8 +25,11 @@ function App() {
      <StateClass></StateClass>
      <CountuseState></CountuseState>
      <FunctionalClick></FunctionalClick>
-     <ClassClick></ClassClick> */}
+     <ClassClick></ClassClick>
      <BindingThis></BindingThis>
+     <ParentComponent/>
+     <ConditionalOperator/> */}
+     <PersonList/>
     </div>
   );
 }
